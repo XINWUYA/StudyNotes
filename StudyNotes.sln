@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "System", "System", "{50D3D936-3D48-4E55-A017-74205F78FD49}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FindAppPathFromRegisterList(注册表中找到微信路径并打开)", "FindAppPathFromRegisterList\FindAppPathFromRegisterList.vcxproj", "{29A578A9-1EC7-45B2-AC4F-12EF528D2CCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorithm", "Algorithm", "{39DC0EB7-87E4-4529-BAE7-0A395A45C9AE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LRU(Least Recently Used)", "LRU\LRU.vcxproj", "{84EA7664-7E61-4451-97E0-6776303B6B77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{5C2BEA77-2C13-4C4C-A8FF-FBB780139E3C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemoryLeakDetector", "MemoryLeakDetector\MemoryLeakDetector.vcxproj", "{62719F44-5AEC-4106-A730-DD558E82DE69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29A578A9-1EC7-45B2-AC4F-12EF528D2CCC}.Debug|x64.ActiveCfg = Debug|x64
+		{29A578A9-1EC7-45B2-AC4F-12EF528D2CCC}.Debug|x64.Build.0 = Debug|x64
+		{29A578A9-1EC7-45B2-AC4F-12EF528D2CCC}.Debug|x86.ActiveCfg = Debug|Win32
+		{29A578A9-1EC7-45B2-AC4F-12EF528D2CCC}.Debug|x86.Build.0 = Debug|Win32
+		{29A578A9-1EC7-45B2-AC4F-12EF528D2CCC}.Release|x64.ActiveCfg = Release|x64
+		{29A578A9-1EC7-45B2-AC4F-12EF528D2CCC}.Release|x64.Build.0 = Release|x64
+		{29A578A9-1EC7-45B2-AC4F-12EF528D2CCC}.Release|x86.ActiveCfg = Release|Win32
+		{29A578A9-1EC7-45B2-AC4F-12EF528D2CCC}.Release|x86.Build.0 = Release|Win32
+		{84EA7664-7E61-4451-97E0-6776303B6B77}.Debug|x64.ActiveCfg = Debug|x64
+		{84EA7664-7E61-4451-97E0-6776303B6B77}.Debug|x64.Build.0 = Debug|x64
+		{84EA7664-7E61-4451-97E0-6776303B6B77}.Debug|x86.ActiveCfg = Debug|Win32
+		{84EA7664-7E61-4451-97E0-6776303B6B77}.Debug|x86.Build.0 = Debug|Win32
+		{84EA7664-7E61-4451-97E0-6776303B6B77}.Release|x64.ActiveCfg = Release|x64
+		{84EA7664-7E61-4451-97E0-6776303B6B77}.Release|x64.Build.0 = Release|x64
+		{84EA7664-7E61-4451-97E0-6776303B6B77}.Release|x86.ActiveCfg = Release|Win32
+		{84EA7664-7E61-4451-97E0-6776303B6B77}.Release|x86.Build.0 = Release|Win32
+		{62719F44-5AEC-4106-A730-DD558E82DE69}.Debug|x64.ActiveCfg = Debug|x64
+		{62719F44-5AEC-4106-A730-DD558E82DE69}.Debug|x64.Build.0 = Debug|x64
+		{62719F44-5AEC-4106-A730-DD558E82DE69}.Debug|x86.ActiveCfg = Debug|Win32
+		{62719F44-5AEC-4106-A730-DD558E82DE69}.Debug|x86.Build.0 = Debug|Win32
+		{62719F44-5AEC-4106-A730-DD558E82DE69}.Release|x64.ActiveCfg = Release|x64
+		{62719F44-5AEC-4106-A730-DD558E82DE69}.Release|x64.Build.0 = Release|x64
+		{62719F44-5AEC-4106-A730-DD558E82DE69}.Release|x86.ActiveCfg = Release|Win32
+		{62719F44-5AEC-4106-A730-DD558E82DE69}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29A578A9-1EC7-45B2-AC4F-12EF528D2CCC} = {50D3D936-3D48-4E55-A017-74205F78FD49}
+		{84EA7664-7E61-4451-97E0-6776303B6B77} = {39DC0EB7-87E4-4529-BAE7-0A395A45C9AE}
+		{62719F44-5AEC-4106-A730-DD558E82DE69} = {5C2BEA77-2C13-4C4C-A8FF-FBB780139E3C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35AA8CC0-CE6A-4544-92C2-26CEEDBC4B78}
+	EndGlobalSection
+EndGlobal
