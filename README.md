@@ -16,6 +16,7 @@
 ###### others
 + **Inheritance**：测试继承系统中的构造和析构函数调用的顺序。
 + **unordered_set**：容器unordered_set。
++ **next_permutation**：按从小到大找到全排列的下一个，用于求数列的全排列。
 
 ### System
 + **FindAppPathFromRegisterList**：在注册表中查找软件的安装路径，然后通过WinExec启动。*注：需要手动对应一些系统参数*
